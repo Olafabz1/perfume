@@ -1,0 +1,226 @@
+body {
+ background-color: hsl(30, 38%, 92%);
+ margin-top: 50px;
+ max-width: 1440px;
+ /* width: 100%; */
+
+}
+
+img {
+ width: 230px;
+ border-top-left-radius: 8px;
+ border-bottom-left-radius: 8px;
+ margin-left: 150px;
+
+}
+
+h5 {
+ color: grey;
+ font-size: 10px;
+ font-family: montserrat;
+ color: hsl(228, 12%, 48%);
+ letter-spacing: 4px;
+
+
+}
+
+.ingredient {
+ color: grey;
+ font-size: 10px;
+ word-spacing: 3px;
+ font-family: montserrat;
+ line-height: 16px;
+ margin-top: -10px;
+
+}
+
+.product {
+ width: 50%;
+ display: flex;
+ margin: 100px auto;
+ padding: 20px;
+
+}
+
+.content {
+ width: 200px;
+ padding: 8px 30px;
+ background-color: aliceblue;
+ border-top-right-radius: 8px;
+ border-bottom-right-radius: 8px;
+ flex-wrap: nowrap;
+}
+
+.amount {
+ width: 100%;
+ display: flex;
+ margin-top: -15px;
+}
+
+.price {
+ font-size: 12px;
+ text-decoration: line-through;
+ color: hsl(228, 12%, 48%);
+ margin-left: 50px;
+ padding-top: 10px;
+}
+
+.sales {
+ color: hsl(228, 12%, 48%);
+ font-family: fraunces;
+ color: hsl(158, 36%, 37%);
+ ;
+}
+
+.cart {
+ width: 100%;
+ display: flex;
+}
+
+
+button {
+ border: 1px solid hsl(158, 36%, 37%);
+ text-align: center;
+ height: 35px;
+ width: 90%;
+ background-color: hsl(158, 36%, 37%);
+ border-radius: 5px;
+ color: white;
+ font-size: small;
+ padding: 8px;
+
+}
+
+span {
+ font-family: montserrat;
+ font-size: 10px;
+ margin-left: 10px;
+}
+
+h2 {
+ font-family: fraunces;
+ line-height: 30px;
+}
+
+.image {
+ display: none;
+}
+
+@media screen and (max-width:764px) {
+
+
+ body {
+  background-color: hsl(30, 38%, 92%);
+  margin-top: 50px;
+  width: 50%;
+
+ }
+
+ img {
+  display: none;
+  margin: 0;
+  width: 265px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 0px;
+
+ }
+
+ .image {
+  display: block;
+ }
+
+ h5 {
+  color: grey;
+  font-size: 10px;
+  font-family: montserrat;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 4px;
+
+
+ }
+
+ .ingredient {
+  color: grey;
+  font-size: 10px;
+  word-spacing: 3px;
+  font-family: montserrat;
+  line-height: 16px;
+  margin-top: -10px;
+
+ }
+
+ .product {
+  width: 50%;
+  display: block;
+  padding: 0;
+
+
+
+
+ }
+
+ .content {
+  width: 205px;
+  height: 300px;
+  padding: 8px 30px;
+  background-color: aliceblue;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 0px;
+  flex-wrap: nowrap;
+  margin: 0;
+
+ }
+
+ .amount {
+  width: 100%;
+  display: flex;
+  margin-top: -15px;
+ }
+
+ .price {
+  font-size: 12px;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  margin-left: 50px;
+  padding-top: 10px;
+ }
+
+ .sales {
+  color: hsl(228, 12%, 48%);
+  font-family: fraunces;
+  color: hsl(158, 36%, 37%);
+
+ }
+
+ .cart {
+  width: 100%;
+  display: flex;
+ }
+
+
+ button {
+  border: 1px solid hsl(158, 36%, 37%);
+  text-align: center;
+  height: 35px;
+  width: 90%;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 5px;
+  color: white;
+  font-size: small;
+  padding: 8px;
+
+ }
+
+ span {
+  font-family: montserrat;
+  font-size: 10px;
+  margin-left: 10px;
+ }
+
+ h2 {
+  font-family: fraunces;
+  line-height: 30px;
+ }
+}
